@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ViewController1.swift
 //  QRCode Scanner
 //
 //  Created by omrobbie on 24/02/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController1: UIViewController {
 
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var txtResult: UITextView!
