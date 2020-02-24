@@ -13,6 +13,7 @@
 		FC75388924036E59008A2B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC75388724036E59008A2B79 /* Main.storyboard */; };
 		FC75388B24036E5B008A2B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC75388A24036E5B008A2B79 /* Assets.xcassets */; };
 		FC75388E24036E5B008A2B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC75388C24036E5B008A2B79 /* LaunchScreen.storyboard */; };
+		FC75389C24037DD2008A2B79 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75389B24037DD2008A2B79 /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FC75388A24036E5B008A2B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC75388D24036E5B008A2B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC75388F24036E5B008A2B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC75389B24037DD2008A2B79 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FC75388124036E59008A2B79 /* AppDelegate.swift */,
 				FC75388324036E59008A2B79 /* SceneDelegate.swift */,
 				FC75388524036E59008A2B79 /* ViewController.swift */,
+				FC75389B24037DD2008A2B79 /* ScannerViewController.swift */,
 				FC75388724036E59008A2B79 /* Main.storyboard */,
 				FC75388A24036E5B008A2B79 /* Assets.xcassets */,
 				FC75388C24036E5B008A2B79 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				FC75388624036E59008A2B79 /* ViewController.swift in Sources */,
 				FC75388224036E59008A2B79 /* AppDelegate.swift in Sources */,
 				FC75388424036E59008A2B79 /* SceneDelegate.swift in Sources */,
+				FC75389C24037DD2008A2B79 /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SMXMP42NY;
 				INFOPLIST_FILE = "QRCode Scanner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SMXMP42NY;
 				INFOPLIST_FILE = "QRCode Scanner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
