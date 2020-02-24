@@ -43,6 +43,9 @@
                                         <integer key="value" value="100"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ndL-qg-xiC" kind="show" id="mr1-Tx-Gd1"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="H86-Mt-Zwg">
                                 <rect key="frame" x="20" y="168" width="374" height="426"/>
@@ -67,10 +70,31 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="btnScan" destination="gff-Sa-kDg" id="wRT-rq-fER"/>
+                        <outlet property="lblTitle" destination="tW9-Hg-LBb" id="7rU-Bz-sPL"/>
+                        <outlet property="txtResult" destination="H86-Mt-Zwg" id="14e-33-FGz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="r4s-ap-ACg">
+            <objects>
+                <viewController id="ndL-qg-xiC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cb0-Jp-ggT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4fs-F3-ei5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="c8Q-GC-Mri"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Zk-Xk-wP6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901" y="139"/>
         </scene>
     </scenes>
 </document>

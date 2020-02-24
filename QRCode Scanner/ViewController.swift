@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblTitle: UILabel!
+    @IBOutlet weak var txtResult: UITextView!
+    @IBOutlet weak var btnScan: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
