@@ -44,7 +44,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="ndL-qg-xiC" kind="show" id="mr1-Tx-Gd1"/>
+                                    <action selector="btnScanTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NkR-0o-SyD"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="H86-Mt-Zwg">
@@ -74,6 +74,7 @@
                         <outlet property="btnScan" destination="gff-Sa-kDg" id="wRT-rq-fER"/>
                         <outlet property="lblTitle" destination="tW9-Hg-LBb" id="7rU-Bz-sPL"/>
                         <outlet property="txtResult" destination="H86-Mt-Zwg" id="14e-33-FGz"/>
+                        <segue destination="ndL-qg-xiC" kind="show" identifier="toScanner" id="wRK-3V-040"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

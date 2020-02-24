@@ -10,7 +10,13 @@ import UIKit
 
 class ViewController2: ScannerViewController {
 
+    var viewController1: ViewController1?
+
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    override func found(code: String) {
+        viewController1?.writeResult(code: code)
     }
 }

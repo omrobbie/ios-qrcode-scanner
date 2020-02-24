@@ -17,4 +17,17 @@ class ViewController1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    @IBAction func btnScanTapped(_ sender: Any) {
+        let vc = ViewController2()
+        vc.viewController1 = self
+
+        present(vc, animated: true, completion: nil)
+    }
+    
+    func writeResult(code: String) {
+        lblTitle.text = "Hasil pemindaian"
+        txtResult.text = code
+        btnScan.setTitle("Pindai lagi", for: .normal)
+    }
 }
