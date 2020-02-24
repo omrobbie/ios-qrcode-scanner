@@ -14,6 +14,7 @@
 		FC75388B24036E5B008A2B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC75388A24036E5B008A2B79 /* Assets.xcassets */; };
 		FC75388E24036E5B008A2B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC75388C24036E5B008A2B79 /* LaunchScreen.storyboard */; };
 		FC75389C24037DD2008A2B79 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75389B24037DD2008A2B79 /* ScannerViewController.swift */; };
+		FC75389E24037EAE008A2B79 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75389D24037EAE008A2B79 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FC75388D24036E5B008A2B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC75388F24036E5B008A2B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC75389B24037DD2008A2B79 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		FC75389D24037EAE008A2B79 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				FC75388124036E59008A2B79 /* AppDelegate.swift */,
 				FC75388324036E59008A2B79 /* SceneDelegate.swift */,
 				FC75388524036E59008A2B79 /* ViewController1.swift */,
+				FC75389D24037EAE008A2B79 /* ViewController2.swift */,
 				FC75389B24037DD2008A2B79 /* ScannerViewController.swift */,
 				FC75388724036E59008A2B79 /* Main.storyboard */,
 				FC75388A24036E5B008A2B79 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC75389E24037EAE008A2B79 /* ViewController2.swift in Sources */,
 				FC75388624036E59008A2B79 /* ViewController1.swift in Sources */,
 				FC75388224036E59008A2B79 /* AppDelegate.swift in Sources */,
 				FC75388424036E59008A2B79 /* SceneDelegate.swift in Sources */,

@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>
-        <!--Scanner View Controller-->
+        <!--View Controller2-->
         <scene sceneID="r4s-ap-ACg">
             <objects>
-                <viewController id="ndL-qg-xiC" customClass="ScannerViewController" customModule="QRCode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ndL-qg-xiC" customClass="ViewController2" customModule="QRCode_Scanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cb0-Jp-ggT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
